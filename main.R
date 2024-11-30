@@ -6,9 +6,10 @@ library(pdftools)
 pdf_directory <- "D:/My Docs"
 
 # Manually specify the file names in the desired order
-pdf_files <- c("CV_JEREMIAH_KATUMO_KURWA.pdf","SCANNED_CERT.pdf", "JEREMIAH_KCSE_CERT.pdf", "National Association of State Boards of Accountancy (NASBA).pdf", "MEAL DPro_Certificate of completion.pdf",
+pdf_files <- c("CV_JEREMIAH_KATUMO_KURWA.pdf","SCANNED_CERT.pdf", "JEREMIAH_KCSE_CERT.pdf", "Transcript.pdf", "National Association of State Boards of Accountancy (NASBA).pdf", "MEAL DPro_Certificate of completion.pdf",
                "Survival Analysis in R.pdf", "Factor Analysis in R.pdf", "Experimental Design in R.pdf", "Analyzing Survey Data in R.pdf", "Intro to machine learning with R.pdf",
-               "Machine_Learning.pdf", "Tableau Training.pdf", "Power_BI_for_Beginners.pdf", "Business analytics with Excel.pdf", "Transcript.pdf")  # Replace with your filenames
+               "Machine_Learning.pdf", "Tableau Training.pdf", "Power_BI_for_Beginners.pdf", "Business analytics with Excel.pdf", "Transcript.pdf", "Data science with Python.pdf",
+               "Advanced_Web_Analytics_Course.pdf", "Introduction_to_SQL.pdf")  # Replace with your filenames
 
 # Construct the full file paths
 pdf_files <- file.path(pdf_directory, pdf_files)
