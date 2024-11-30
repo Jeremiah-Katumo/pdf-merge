@@ -1,5 +1,3 @@
-
-# Load the pdftools package
 library(pdftools)
 
 # Define the directory containing PDF files
@@ -21,3 +19,12 @@ output_file <- file.path(pdf_directory, "merged_output.pdf")
 pdf_combine(pdf_files, output_file)
 
 cat("PDF files merged successfully in the specified order into", output_file, "\n")
+
+# Define the input and output file paths
+input_file <- "path/to/your/input.pdf"
+output_file <- "path/to/your/reduced_output.pdf"
+
+# Use qpdf to compress the PDF file
+pdf_compress(input_file, output_file)
+
+cat("PDF file size reduced successfully. Compressed file saved as:", output_file, "\n")
